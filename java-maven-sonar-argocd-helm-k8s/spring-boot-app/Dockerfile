@@ -7,4 +7,4 @@ WORKDIR /opt/app
 COPY target/*.jar app.jar
 
 # This should not be changed
-ENTRYPOINT ["java","-jar","app.jar"]
+CMD ["java","-jar","app.jar"]
